@@ -1,0 +1,19 @@
+# PromptFolio model configuration file
+
+MODEL:
+  NAME: 'promptfolio'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
+  PFL: true  # Personalized FL
+
+TRAINER:
+  PLOT:
+    N_CTX: 16  # Number of context vectors
+    CSC: false  # Class-specific context
+    CTX_INIT: false  # Initialization words
+    PREC: "fp16"  # Precision setting
+    CLASS_TOKEN_POSITION: "end"  # Class token position
+    N: 2  # Number of prompts
+    FRAC: 0.4  # Fraction parameter

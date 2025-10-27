@@ -1,0 +1,6 @@
+# SwanLab依赖
+swanlab>=0.3.0
+
+# 其他必要依赖
+torch>=1.9.0
+numpy>=1.21.0

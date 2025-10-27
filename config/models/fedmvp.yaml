@@ -1,0 +1,19 @@
+# FedMVP model configuration file
+
+MODEL:
+  NAME: 'fedmvp'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
+  PFL: false  # Personalized FL
+
+TRAINER:
+  FEDMVP:
+    N_CTX: 16  # Number of context vectors
+    CSC: false  # Class-specific context
+    CTX_INIT: false  # Initialization words
+    CLASS_TOKEN_POSITION: "end"  # Class token position
+    N: 2  # Number of prompts
+    FEATURE: false  # Whether to use features
+    ALPHA: 10  # Regularization parameter

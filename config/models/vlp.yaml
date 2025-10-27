@@ -1,0 +1,8 @@
+# VLP model configuration file
+
+MODEL:
+  NAME: 'vlp'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0

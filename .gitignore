@@ -1,0 +1,11 @@
+*.log
+swanlog/
+output/
+zeroshot_results
+test_auto.sh
+test_auto_dir.sh
+test_cbm.sh
+test_new.sh
+test.sh
+test_shell copy.sh
+test_shell.sh

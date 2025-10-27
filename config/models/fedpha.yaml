@@ -1,0 +1,21 @@
+# FedPHA model configuration file
+
+MODEL:
+  NAME: 'fedpha'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
+  PFL: true  # Personalized FL
+
+TRAINER:
+  GL_SVDMSE:
+    N_CTX: 16  # Number of context vectors
+    CSC: false  # Class-specific context
+    CTX_INIT: false  # Initialization words
+    PREC: "fp16"  # Precision setting
+    CLASS_TOKEN_POSITION: "end"  # Class token position
+    N: 1  # Number of prompts
+    lambda_orthogonal: 1  # Orthogonal regularization parameter
+    alpha: 1.0  # Alpha parameter
+    ratio: 0.8  # Ratio parameter

@@ -1,0 +1,8 @@
+# CoOp model configuration file
+
+MODEL:
+  NAME: 'coop'
+  N_CTX: 4
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0

@@ -1,0 +1,15 @@
+# CBM model configuration file
+
+MODEL:
+  NAME: 'cbm'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
+
+TRAINER:
+  CBM:
+    CONCEPT_NUM: 100  # Number of concepts
+    BOTTLENECK_DIM: 128  # Bottleneck layer dimension
+    PERSONALIZATION_EPOCHS: 10  # Personalization training epochs
+    PERSONALIZATION_LR: 1e-3  # Personalization learning rate

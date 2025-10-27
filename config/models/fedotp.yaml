@@ -1,0 +1,23 @@
+# FedOTP model configuration file
+
+MODEL:
+  NAME: 'fedotp'
+  N_CTX: 4
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
+  PFL: true  # Personalized FL
+
+TRAINER:
+  GLP_OT:
+    N_CTX: 4  # Number of context vectors
+    CSC: false  # Class-specific context
+    CTX_INIT: false  # Initialization words
+    PREC: "fp16"  # Precision setting
+    CLASS_TOKEN_POSITION: "end"  # Class token position
+    N: 2  # Number of prompts
+    THRESH: 0.001  # Sinkhorn distance threshold
+    EPS: 0.01  # Sinkhorn distance lambda
+    OT: 'COT'  # OT type
+    TOP_PERCENT: 0.80  # Top percentage
+    MAX_ITER: 100  # Maximum iterations

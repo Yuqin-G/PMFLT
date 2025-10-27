@@ -1,0 +1,21 @@
+# FedPGP model configuration file
+
+MODEL:
+  NAME: 'fedpgp'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
+  PFL: true  # Personalized FL
+
+TRAINER:
+  FEDPGP:
+    N_CTX: 16  # Number of context vectors
+    CSC: false  # Class-specific context
+    CTX_INIT: false  # Initialization words
+    CLASS_TOKEN_POSITION: "end"  # Class token position
+    BOTTLENECK: 8  # Bottleneck layer dimension
+    N: 2  # Number of prompts
+    FEATURE: false  # Whether to use features
+    mu: 0.5  # Regularization parameter
+    temp: 0.5  # Temperature parameter

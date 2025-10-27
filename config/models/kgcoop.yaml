@@ -1,0 +1,8 @@
+# kgCoOp model configuration file
+
+MODEL:
+  NAME: 'kgcoop'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0

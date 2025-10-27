@@ -1,0 +1,9 @@
+# FedTPG model configuration file
+# Contains configurations for FedTPG, CoOp, VLP, kgCoOp models
+
+MODEL:
+  NAME: 'fedtpg'
+  N_CTX: 16
+  D_CTX: 1
+  CTX_INIT: ""
+  DEPTH: 0
