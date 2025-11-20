@@ -1,6 +1,6 @@
-# FLVLM: Federated Learning for Vision-Language Models
+# PMFLT: Pretrained-Model based Federated Learning Toolbox
 
-A unified framework for federated learning of vision-language models in distributed environments.
+PMFLT is a research-oriented federated learning toolbox designed for experiments with pre-trained models. It provides standardized training pipelines and modular components, enabling easy exploration, comparison, and development of federated learning methods.
 
 ## 📖 Introduction
 
